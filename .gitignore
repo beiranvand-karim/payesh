@@ -1,0 +1,8 @@
+.idea
+
+backend/env
+
+
+frontend/node_modules
+frontend/yarn.lock
+frontend/package-lock.json
