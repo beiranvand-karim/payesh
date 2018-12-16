@@ -15,14 +15,14 @@ const configs = {
     port: 7070
   },
   production: {
-    mongodbUri: 'mongodb://karim:karim123@localhost:27017/extopo',
+    mongodbUri: 'mongodb://localhost:27017/payesh',
     port: process.env.APP_PORT || 7071
   },
   development: {
-    mongodbUri: 'mongodb://karim:karim123@localhost:27017/extopo',
+    mongodbUri: 'mongodb://localhost:27017/payesh',
   },
   test: {
-    mongodbUri: 'mongodb://karim:karim123@localhost:27017/extopo',
+    mongodbUri: 'mongodb://localhost:27017/payesh',
     port: 7072,
   }
 };
